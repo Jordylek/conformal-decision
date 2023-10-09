@@ -1,5 +1,5 @@
 # Conformal Decision Making: 
-This is the official repository of [Conformal Decision Making](https://conformal-decision.github.io/static/pdf/submission.pdf) by [Jordan Lekeufack*](https://jordylek.github.io/), [Anastasios N. Angelopoulos*](https://people.eecs.berkeley.edu/~angelopoulos/), [Andrea Bajcsy*](https://www.cs.cmu.edu/~abajcsy/), [Michael I. Jordan*](http://people.eecs.berkeley.edu/~jordan/), [Jitendra Malik*](http://people.eecs.berkeley.edu/~malik/)
+This is the official repository of [Conformal Decision Theory: Safe Autonomous Decisions from Imperfect Predictions](https://conformal-decision.github.io/static/pdf/submission.pdf) by [Jordan Lekeufack*](https://jordylek.github.io/), [Anastasios N. Angelopoulos*](https://people.eecs.berkeley.edu/~angelopoulos/), [Andrea Bajcsy*](https://www.cs.cmu.edu/~abajcsy/), [Michael I. Jordan*](http://people.eecs.berkeley.edu/~jordan/), [Jitendra Malik*](http://people.eecs.berkeley.edu/~malik/)
 
 
 <p align="center">
