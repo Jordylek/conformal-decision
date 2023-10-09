@@ -11,10 +11,8 @@ This is the official repository of [Conformal Decision Making](https://conformal
 </p>
 
 ## Technical background
-*Conformal Decision Theory*(CDT) is a framework for producing safe autonomous decision despice imperfect machine learning predictions. Given a family of decision functions $\mathcal{D}_t = \{D^\lambda_t: \, \lambda \in \mathbb{R}\}$. At each timestep $t$, the agent receive an input $x_t$, and must make a decision function $D^\lambda_t$ that will output an action $u_t:= D_\lambda(x_t)$, then incurs a loss $\mathcal{L}(u_t, y_t)$. CDT provides a way to select $\lambda_t$, such that the empirical risk is controlled:
-$$
-\frac{1}{T} \sum_{t=1}^T \mathcal{L}(D_t^{\lambda_t}(x_t), y_t) \leq \varepsilon + O(1/T)
-$$
+*Conformal Decision Theory*(CDT) is a framework for producing safe autonomous decision despice imperfect machine learning predictions. Given a family of decision functions $\{D^\lambda_t\, \lambda \in \mathbb{R}\}$. At each timestep $t$, the agent receive an input $x_t$, and must make a decision function $D_t^{\lambda_t}$ that will output an action $u_t:= D_\lambda(x_t)$, then incurs a loss $\mathcal{L}(u_t, y_t)$. CDT provides a way to select $\lambda_t$, such that the empirical risk is controlled:
+$$\frac{1}{T} \sum_{t=1}^T \mathcal{L}(D_t^{\lambda_t}(x_t), y_t) \leq \varepsilon + O(1/T)$$
 
 ## Setup
 With Anaconda, create a new environment and the packages in `requirements.txt`
