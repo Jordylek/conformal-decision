@@ -1,6 +1,10 @@
-# Conformal Decision Making: 
+# Conformal Decision Theory 
 This is the official repository of [Conformal Decision Theory: Safe Autonomous Decisions from Imperfect Predictions](https://conformal-decision.github.io/static/pdf/submission.pdf) by [Jordan Lekeufack*](https://jordylek.github.io/), [Anastasios N. Angelopoulos*](https://people.eecs.berkeley.edu/~angelopoulos/), [Andrea Bajcsy*](https://www.cs.cmu.edu/~abajcsy/), [Michael I. Jordan*](http://people.eecs.berkeley.edu/~jordan/), [Jitendra Malik*](http://people.eecs.berkeley.edu/~malik/)
 
+It contains implementations of conformal controllers on three synthetic and real-data applications:
+* robot motion planning around humans
+* automated stock trading
+* robot manufacturing.
 
 <p align="center">
     <a style="text-decoration:none !important;" href="https://conformal-decision.github.io/static/pdf/submission.pdf" alt="arXiv"> <img src="https://img.shields.io/badge/paper-arXiv-red" /> </a>
