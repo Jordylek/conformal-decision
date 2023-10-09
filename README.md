@@ -4,7 +4,7 @@ This is the official repository of [Conformal Decision Making](https://conformal
 
 <p align="center">
     <a style="text-decoration:none !important;" href="https://conformal-decision.github.io/static/pdf/submission.pdf" alt="arXiv"> <img src="https://img.shields.io/badge/paper-arXiv-red" /> </a>
-    <a style="text-decoration:none !important;" href="https://conformal-decision.github.io/" alt="website"> <img src="https://img.shields.io/badge/website-Berkeley-yellow" /> </a>
+    <a style="text-decoration:none !important;" href="https://conformal-decision.github.io/" alt="website"> <img src="https://img.shields.io/badge/website-CDT-yellow" /> </a>
     <a style="text-decoration:none !important;" href="https://docs.conda.io/en/latest/miniconda.html" alt="package management"> <img src="https://img.shields.io/badge/conda-env-green" /> </a>
     <a style="text-decoration:none !important;" href="https://opensource.org/licenses/MIT" alt="License"> <img src="https://img.shields.io/badge/license-MIT-blue.svg" /> </a>
 
