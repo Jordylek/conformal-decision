@@ -1,9 +1,9 @@
 # Conformal Decision Making: 
-This is the official repository of [Conformal Decision Making](http://arxiv.org/abs/2208.02814) by [Jordan Lekeufack*](https://jordylek.github.io/), [Anastasios N. Angelopoulos*](https://people.eecs.berkeley.edu/~angelopoulos/), [Andrea Bajcsy*](https://www.cs.cmu.edu/~abajcsy/), [Michael I. Jordan*](http://people.eecs.berkeley.edu/~jordan/), [Jitendra Malik*](http://people.eecs.berkeley.edu/~malik/)
+This is the official repository of [Conformal Decision Making](https://conformal-decision.github.io/static/pdf/submission.pdf) by [Jordan Lekeufack*](https://jordylek.github.io/), [Anastasios N. Angelopoulos*](https://people.eecs.berkeley.edu/~angelopoulos/), [Andrea Bajcsy*](https://www.cs.cmu.edu/~abajcsy/), [Michael I. Jordan*](http://people.eecs.berkeley.edu/~jordan/), [Jitendra Malik*](http://people.eecs.berkeley.edu/~malik/)
 
 
 <p align="center">
-    <a style="text-decoration:none !important;" href="http://arxiv.org/abs/2208.02814" alt="arXiv"> <img src="https://img.shields.io/badge/paper-arXiv-red" /> </a>
+    <a style="text-decoration:none !important;" href="https://conformal-decision.github.io/static/pdf/submission.pdf" alt="arXiv"> <img src="https://img.shields.io/badge/paper-arXiv-red" /> </a>
     <a style="text-decoration:none !important;" href="https://conformal-decision.github.io/" alt="website"> <img src="https://img.shields.io/badge/website-Berkeley-yellow" /> </a>
     <a style="text-decoration:none !important;" href="https://docs.conda.io/en/latest/miniconda.html" alt="package management"> <img src="https://img.shields.io/badge/conda-env-green" /> </a>
     <a style="text-decoration:none !important;" href="https://opensource.org/licenses/MIT" alt="License"> <img src="https://img.shields.io/badge/license-MIT-blue.svg" /> </a>
