@@ -27,24 +27,29 @@ With Anaconda, create a new environment and the packages in `requirements.txt`
 `run_factory_example.py` runs the Factory example presented in the paper. `run_trading_example` runs the trading example.
 
 ## Stanford Drone Example
-To run the SDD example, You first need to download the code from the [website](https://cvgl.stanford.edu/projects/uav_data/)
+To run the SDD example, You first need to download the dataset from the [website](https://cvgl.stanford.edu/projects/uav_data/) and unzip it in your directory of choice.
 
 ```
     wget http://vatic2.stanford.edu/stanford_campus_dataset.zip
     unzip stanford_campus_dataset.zip
 ```
 
-You then need to create a cache for the predictions of humans next position
+You also need to download (`ynet_additional_files`)[https://drive.google.com/file/d/1u4hTk_BZGq1929IxMPLCrDzoG3wsZnsa/view?usp=sharing]. 
+
+Then you need to edit the default arguments to [`load_SDD`](https://github.com/Jordylek/conformal-decision/blob/d3f3e97157d7f1ce0957cbba910a699be3f16f8b/sdd/utils/preprocessing.py#L14) to point to these filepaths.
+
+You then need to create a cache for the predictions of the humans' next positions
 ```
-    python sdd/darts_cache.py
+    bash sdd/bash-cache-darts.py
 ```
 
 Then you can create the trajectory for the robot and generate the video
 
 ```
-    python sdd/plan_trajectory.py
-    python sdd/make_results.py
+    bash bash-traj.sh
 ```
+
+The videos will be stored in `sdd/videos` and the results in `sdd/metrics`.
 
 ### Citation 
 
