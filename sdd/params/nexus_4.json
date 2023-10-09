@@ -1,0 +1,34 @@
+horizon: 80
+num_waypts: 80
+H_m: 83
+W_m: 66
+fps: 30
+gnums:
+  - 250
+  - 250 
+gmin:
+  - 0
+  - 0
+gmax:
+  - 1
+  - 1
+max_linear_vel: 6
+max_angular_vel: 0.25
+goal_rad: 5
+human_rad: 2
+human_size: 0.5
+robot_size: 0.5
+r_start:
+  - 0.95
+  - 0.55
+  - 3.1415
+  - 0.001
+r_goal:
+  - 0:
+    - 0.1
+    - 0.55
+    - 3.1415
+    - 0.001
+starting_frame: 50
+alpha: 0.01
+downsample: 1

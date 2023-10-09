@@ -1,0 +1,32 @@
+horizon: 80
+num_waypts: 80
+H_m: 83
+W_m: 66
+fps: 30
+gnums:
+  - 50
+  - 50
+gmin:
+  - 0
+  - 0
+gmax:
+  - 1
+  - 1
+max_linear_vel: 4
+max_angular_vel: 0.25
+goal_rad: 3
+human_rad: 3
+r_start:
+  - 0.05
+  - 0.52
+  - 0
+  - 0.001
+r_goal:
+  - 0:
+    - 0.95
+    - 0.52
+    - 0
+    - 0.001
+starting_frame: 9540 
+alpha: 0.1
+downsample: 1
