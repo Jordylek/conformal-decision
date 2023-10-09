@@ -1,6 +1,6 @@
 for i in nexus_4; do
 #$(find ./params/*); do
-    for forecaster in ynet darts; do
+    for forecaster in darts; do
         filename=$(basename "$i")
         scene=$(echo "$filename" | rev | cut -d. -f2- | rev)
         for lr in 0.0 50 100 500 1000; do
