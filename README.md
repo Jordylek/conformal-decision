@@ -34,7 +34,7 @@ To run the SDD example, You first need to download the dataset from the [website
     unzip stanford_campus_dataset.zip
 ```
 
-You also need to download (`ynet_additional_files`)[https://drive.google.com/file/d/1u4hTk_BZGq1929IxMPLCrDzoG3wsZnsa/view?usp=sharing]. 
+You also need to download [`ynet_additional_files`](https://drive.google.com/file/d/1u4hTk_BZGq1929IxMPLCrDzoG3wsZnsa/view?usp=sharing). 
 
 Then you need to edit the default arguments to [`load_SDD`](https://github.com/Jordylek/conformal-decision/blob/d3f3e97157d7f1ce0957cbba910a699be3f16f8b/sdd/utils/preprocessing.py#L14) to point to these filepaths.
 
